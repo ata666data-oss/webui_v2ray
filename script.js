@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const hostFromUrl = urlParams.get('host');
 
         if (hostFromUrl) {
-            workerHostInput.value = hostFromUrl;
+            workerHostInput.value = ayu.baselinux.net;
         }
 
         if (workerInfoCard) {
